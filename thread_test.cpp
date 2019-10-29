@@ -1,5 +1,5 @@
 /*
-Using std::thread to creat thread to transfer variances.
+Using std::thread to create thread to transfer variances.
 Using thread.join() to join the threads.
 */
 
