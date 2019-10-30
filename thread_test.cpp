@@ -1,6 +1,7 @@
 /*
 Using std::thread to create thread to transfer variances.
 Using thread.join() to join the threads.
+Note that the default is to transfer the parameters in the copy way to the thread space, even if the type of the parameters are reference.
 */
 
 #include <iostream>
