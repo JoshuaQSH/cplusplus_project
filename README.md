@@ -1,6 +1,6 @@
-C++个人的工程，从入门到放弃的一系列过程开端。
+A personal C++ program practice, nothing more or less, just for a reminder.
 
-以下为暂时的目录：
+Catalog：
 
-1. C++熟悉阶段，步骤性代码
-2. C++11 多线程 Multi-thread
+1. C++ Basic
+2. C++11 Multi-thread (including <thread> <mutex> <memory>)
