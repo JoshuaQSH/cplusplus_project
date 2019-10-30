@@ -18,11 +18,20 @@ class X
     }
 };
 
+void func(int a,int b){
+    cout << "a = " << a << ", b = " << b << endl;
+}
+
 int main()
 {
     X my_x;
     thread t(&X::do_sth,&my_x);
+    std::thread t1(std::bind(func, 1, 2));
+    std::thread t2([](int a, int b){cout << "a = " << a << ", b = " << b << endl;}, 1,2);
+    
     t.join();
+    t1.join();
+    t2.join();
 
     return 0;
 }
